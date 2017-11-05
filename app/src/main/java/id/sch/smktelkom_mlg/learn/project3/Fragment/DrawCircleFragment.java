@@ -20,14 +20,17 @@ import id.sch.smktelkom_mlg.learn.project3.R;
 
 public class DrawCircleFragment extends Fragment implements OnMapReadyCallback {
     static final CameraPosition SGH = CameraPosition.builder()
-            .target(new LatLng(-6.887088, 111.670994))
+//            .target(new LatLng(-6.887088, 111.670994))
+            .target(new LatLng(48.8584, 2.2945))
             .zoom(10)
             .bearing(0)
             .tilt(45)
             .build();
     GoogleMap m_map;
     boolean mapReady = false;
-    LatLng sugihan = new LatLng(-6.884764, 111.675016);
+    LatLng sugihan = new LatLng(2.2960, 2.2950);
+
+//    LatLng sugihan = new LatLng(-6.884764, 111.675016);
 
 
     public DrawCircleFragment() {
